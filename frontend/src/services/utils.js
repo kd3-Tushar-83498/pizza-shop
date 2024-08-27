@@ -1,7 +1,7 @@
-const SERVER_URL = 'http://localhost:4001'
+import { server } from "../config"
 
 export function createUrl(path){
-    return `${SERVER_URL}/${path}`
+    return `${server}/${path}`
 }
 
 

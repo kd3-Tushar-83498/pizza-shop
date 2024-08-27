@@ -14,6 +14,8 @@ router.get('/', async(request, response)=> {
         const [result] = await db.execute(statement, [])
         response.send(utils.createSuccess(result))
 
+
+        
     }catch(ex){
         response.send(utils.createError(ex))
     }

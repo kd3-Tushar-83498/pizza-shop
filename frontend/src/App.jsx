@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
 
       <Routes>
         <Route index element = {<Signin></Signin>}></Route>
@@ -20,7 +20,7 @@ function App() {
         <Route path = '/orders' element = {<Orders></Orders>}></Route>
         <Route path = '/home' element = {<Home></Home>}></Route>
         <Route path='/cart' element = {<Cart></Cart>}></Route>
-
+        
       </Routes>
 
       <ToastContainer/>

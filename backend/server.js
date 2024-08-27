@@ -15,6 +15,7 @@ app.use(cors())
 app.use(morgan('combined'))
 app.use(express.json())
 app.use(express.urlencoded({ extended : true}))
+app.use(express.static('images'))
 
 //configure protected routes
 app.use((request, response, next)=> {

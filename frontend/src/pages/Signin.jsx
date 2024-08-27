@@ -7,7 +7,7 @@ import { signinUser } from '../services/user'
 
 export function Signin() {
 
-    const [email, setEmail] = useState('')
+    const [email, setEmail] = useState('ronak')
     const [password, setPassword] = useState('')
 
     const navigate = useNavigate()

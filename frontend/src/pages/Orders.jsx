@@ -1,7 +1,16 @@
+import Navbar from "../components/Navbar"
+
 export function Orders() {
     return(
-        <div className="title">
-            <h1>Orders</h1>
+        <div >
+
+
+            <div >
+                <Navbar/>
+                <div className="container">
+                    <h1 className="title">Orders</h1>
+                </div>
+            </div>
         </div>
     )
 }
